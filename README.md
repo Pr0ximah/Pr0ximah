@@ -41,9 +41,5 @@
 </div>
 
 <div align="center" style="margin-top: 10px;">
-<img src="https://github-readme-stats-sepia-beta-14.vercel.app/api/wakatime?username=Pr0ximah&layout=compact&theme=catppuccin_latte" alt="Pr0ximah's WakaTime stats" />
-</div>
-
-<div align="center" style="margin-top: 10px;">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Pr0ximah&theme=minimal" alt="Pr0ximah's Activity Graph" />
 </div>
