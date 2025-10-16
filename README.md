@@ -11,7 +11,7 @@
 ## 🛠️ Technologies
 
 - ⌨️ **Languages & Frameworks**:
-<div align="center" style="width: 100%; display: flex; justify-content: center; align-items: center; gap: 5px; flex-wrap: wrap; margin-bottom: 10px;">
+<div align="center" style="width: 100%; display: flex; justify-content: center; align-items: center; gap: 5px; flex-wrap: wrap;">
 <img src="https://img.shields.io/badge/-python-%233776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Badge" />
 <img src="https://img.shields.io/badge/-c++-%2300599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++ Badge" />
 <img src="https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=htmx&logoColor=white" /> 
@@ -20,7 +20,7 @@
 <img src="https://img.shields.io/badge/-Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" alt="Vue.js Badge" />
 </div>
 
-- 🕹️ **Platforms & Tools**:
+<!-- - 🕹️ **Platforms & Tools**:
 <div align="center" style="display: flex; justify-content: center; align-items: center; gap: 5px; flex-wrap: wrap;">
 <img src="https://img.shields.io/badge/-Windows-0078D4?style=for-the-badge&logo=data:image/svg+xml;charset=utf-8;base64,PHN2ZyB0PSIxNzUwNzc2MjM1MTk0IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9Ijk5MjciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48cGF0aCBkPSJNNDkwLjY2NjY2NyAxMjh2MzYyLjY2NjY2N0gxMjhWMTI4aDM2Mi42NjY2Njd6IG0wIDc2OEgxMjh2LTM2Mi42NjY2NjdoMzYyLjY2NjY2N1Y4OTZ6IG00Mi42NjY2NjYtNzY4SDg5NnYzNjIuNjY2NjY3aC0zNjIuNjY2NjY3VjEyOHogbTM2Mi42NjY2NjcgNDA1LjMzMzMzM1Y4OTZoLTM2Mi42NjY2Njd2LTM2Mi42NjY2NjdIODk2eiIgcC1pZD0iOTkyOCIgZmlsbD0iI2ZmZmZmZiI+PC9wYXRoPjwvc3ZnPg==" alt="Windows Badge" />
 <img src="https://img.shields.io/badge/-macOS-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS Badge" />
@@ -31,7 +31,7 @@
 <img src="https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Badge" />
 <img src="https://img.shields.io/badge/-VSCode-007ACC?style=for-the-badge&logo=data:image/svg+xml;charset=utf-8;base64,PHN2ZyB0PSIxNzUwNzc2Mjk4Nzc3IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjEwOTUwIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCI+PHBhdGggZD0iTTcyNS4zMzMzMzMgNzAyLjcyVjMxNS4zMDY2NjdsLTI1NiAxOTMuNzA2NjY2TTk0LjcyIDM5Mi4xMDY2NjdhMzYuNjA4IDM2LjYwOCAwIDAgMS0wLjg1MzMzMy00OS4wNjY2NjdsNTEuMi00Ny4zNmM4LjUzMzMzMy03LjY4IDI5LjQ0LTExLjA5MzMzMyA0NC44IDBsMTQ1LjkyIDExMS4zNiAzMzguMzQ2NjY2LTMwOS4zMzMzMzNjMTMuNjUzMzMzLTEzLjY1MzMzMyAzNy4xMi0xOS4yIDY0LTUuMTJsMTcwLjY2NjY2NyA4MS40OTMzMzNjMTUuMzYgOC45NiAyOS44NjY2NjcgMjMuMDQgMjkuODY2NjY3IDQ5LjA2NjY2N3Y1NzZjMCAxNy4wNjY2NjctMTIuMzczMzMzIDM1LjQxMzMzMy0yNS42IDQyLjY2NjY2NmwtMTg3LjczMzMzNCA4OS42Yy0xMy42NTMzMzMgNS41NDY2NjctMzkuMjUzMzMzIDAuNDI2NjY3LTQ4LjIxMzMzMy04LjUzMzMzM2wtMzQyLjE4NjY2Ny0zMTEuNDY2NjY3LTE0NS4wNjY2NjYgMTEwLjkzMzMzNGMtMTYuMjEzMzMzIDExLjA5MzMzMy0zNi4yNjY2NjcgOC4xMDY2NjctNDQuOCAwbC01MS4yLTQ2LjkzMzMzNGMtMTMuNjUzMzMzLTE0LjA4LTExLjk0NjY2Ny0zNy4xMiAyLjEzMzMzMy01MS4ybDEyOC0xMTUuMiIgZmlsbD0iI2ZmZmZmZiIgcC1pZD0iMTA5NTEiPjwvcGF0aD48L3N2Zz4=" alt="VS Code Badge" />
 <img src="https://img.shields.io/badge/-Vim-019733?style=for-the-badge&logo=vim&logoColor=white" alt="Vim Badge" />
-</div>
+</div> -->
 
 ## 📊 Code Statics
 
