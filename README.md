@@ -35,23 +35,26 @@
 
 ## 📊 Code Statics
 
-<div align="center" style="display: flex; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap;">
+<!-- 卡片区：卡片之间写 2 个 &nbsp;（&nbsp; 会把两侧的空白串切开，<picture> 内部紧贴 <img> 的换行
+     也各塌缩成一个空格，所以实得 4 个空格宽 ≈16.8px）；
+     graph 用 vspace 撑出同样宽度的上下间距；
+     三张卡固有圆角故意不同（16.8/14.2/14.4），因为缩放比不同，这样显示出来才一样大。生成脚本：apply_readme_v3.py -->
+<div align="center">
 <picture>
-  <source srcset="https://github-stats-extended-frontend-beta-ochre.vercel.app/api?username=Pr0ximah&count_private=true&show_icons=true&theme=catppuccin_latte&bg_color=2e3440&border_color=3b4252&title_color=88c0d0&text_color=d8dee9&icon_color=a3be8c&ring_color=88c0d0&border_radius=14" media="(prefers-color-scheme: dark)">
-  <source srcset="https://github-stats-extended-frontend-beta-ochre.vercel.app/api?username=Pr0ximah&count_private=true&show_icons=true&theme=catppuccin_latte&bg_color=eceff4&border_color=d8dee9&title_color=5e81ac&text_color=2e3440&icon_color=88c0d0&ring_color=5e81ac&border_radius=14" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
-  <img alt="Pr0ximah's GitHub stats" src="https://github-stats-extended-frontend-beta-ochre.vercel.app/api?username=Pr0ximah&count_private=true&show_icons=true&theme=catppuccin_latte&bg_color=eceff4&border_color=d8dee9&title_color=5e81ac&text_color=2e3440&icon_color=88c0d0&ring_color=5e81ac&border_radius=14" style="height: 180px;">
-</picture>
-<picture>
-  <source srcset="https://github-stats-extended-frontend-beta-ochre.vercel.app/api/top-langs?username=Pr0ximah&count_private=true&show_icons=true&theme=catppuccin_latte&hide=javascript%2Ccmake&layout=compact&langs_count=8&bg_color=2e3440&border_color=3b4252&title_color=88c0d0&text_color=d8dee9&icon_color=a3be8c&ring_color=88c0d0&border_radius=14" media="(prefers-color-scheme: dark)">
-  <source srcset="https://github-stats-extended-frontend-beta-ochre.vercel.app/api/top-langs?username=Pr0ximah&count_private=true&show_icons=true&theme=catppuccin_latte&hide=javascript%2Ccmake&layout=compact&langs_count=8&bg_color=eceff4&border_color=d8dee9&title_color=5e81ac&text_color=2e3440&icon_color=88c0d0&ring_color=5e81ac&border_radius=14" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
-  <img alt="Most Used Languages" src="https://github-stats-extended-frontend-beta-ochre.vercel.app/api/top-langs?username=Pr0ximah&count_private=true&show_icons=true&theme=catppuccin_latte&hide=javascript%2Ccmake&layout=compact&langs_count=8&bg_color=eceff4&border_color=d8dee9&title_color=5e81ac&text_color=2e3440&icon_color=88c0d0&ring_color=5e81ac&border_radius=14" style="height: 180px;">
+  <source srcset="https://github-stats-extended-frontend-beta-ochre.vercel.app/api?username=Pr0ximah&count_private=true&show_icons=true&theme=catppuccin_latte&bg_color=2e3440&border_color=3b4252&title_color=88c0d0&text_color=d8dee9&icon_color=a3be8c&ring_color=88c0d0&border_radius=16.8&card_width=686" media="(prefers-color-scheme: dark)">
+  <source srcset="https://github-stats-extended-frontend-beta-ochre.vercel.app/api?username=Pr0ximah&count_private=true&show_icons=true&theme=catppuccin_latte&bg_color=eceff4&border_color=d8dee9&title_color=5e81ac&text_color=2e3440&icon_color=88c0d0&ring_color=5e81ac&border_radius=16.8&card_width=686" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
+  <img alt="Pr0ximah's GitHub stats" src="https://github-stats-extended-frontend-beta-ochre.vercel.app/api?username=Pr0ximah&count_private=true&show_icons=true&theme=catppuccin_latte&bg_color=eceff4&border_color=d8dee9&title_color=5e81ac&text_color=2e3440&icon_color=88c0d0&ring_color=5e81ac&border_radius=16.8&card_width=686" width="47%" />
+</picture>&nbsp;&nbsp;<picture>
+  <source srcset="https://github-stats-extended-frontend-beta-ochre.vercel.app/api/top-langs?username=Pr0ximah&count_private=true&show_icons=true&theme=catppuccin_latte&hide=javascript%2Ccmake&layout=compact&langs_count=6&bg_color=2e3440&border_color=3b4252&title_color=88c0d0&text_color=d8dee9&icon_color=a3be8c&ring_color=88c0d0&border_radius=14.2&card_width=580" media="(prefers-color-scheme: dark)">
+  <source srcset="https://github-stats-extended-frontend-beta-ochre.vercel.app/api/top-langs?username=Pr0ximah&count_private=true&show_icons=true&theme=catppuccin_latte&hide=javascript%2Ccmake&layout=compact&langs_count=6&bg_color=eceff4&border_color=d8dee9&title_color=5e81ac&text_color=2e3440&icon_color=88c0d0&ring_color=5e81ac&border_radius=14.2&card_width=580" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
+  <img alt="Most Used Languages" src="https://github-stats-extended-frontend-beta-ochre.vercel.app/api/top-langs?username=Pr0ximah&count_private=true&show_icons=true&theme=catppuccin_latte&hide=javascript%2Ccmake&layout=compact&langs_count=6&bg_color=eceff4&border_color=d8dee9&title_color=5e81ac&text_color=2e3440&icon_color=88c0d0&ring_color=5e81ac&border_radius=14.2&card_width=580" width="47%" />
 </picture>
 </div>
 
-<div align="center" style="margin-top: 10px;">
+<div align="center">
 <picture>
-  <source srcset="https://github-readme-activity-graph-teal-sigma.vercel.app/graph?username=Pr0ximah&bg_color=2e3440&border_color=3b4252&color=d8dee9&title_color=88c0d0&line=88c0d0&point=ebcb8b&area_color=5e81ac&area=true&radius=14&height=260&days=31" media="(prefers-color-scheme: dark)">
-  <source srcset="https://github-readme-activity-graph-teal-sigma.vercel.app/graph?username=Pr0ximah&bg_color=eceff4&border_color=d8dee9&color=2e3440&title_color=5e81ac&line=5e81ac&point=bf616a&area_color=88c0d0&area=true&radius=14&height=260&days=31" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
-  <img alt="Pr0ximah's Activity Graph" src="https://github-readme-activity-graph-teal-sigma.vercel.app/graph?username=Pr0ximah&bg_color=eceff4&border_color=d8dee9&color=2e3440&title_color=5e81ac&line=5e81ac&point=bf616a&area_color=88c0d0&area=true&radius=14&height=260&days=31" style="width: 100%; max-width: 860px;">
+  <source srcset="https://github-readme-activity-graph-teal-sigma.vercel.app/graph?username=Pr0ximah&bg_color=2e3440&border_color=3b4252&color=d8dee9&title_color=88c0d0&line=88c0d0&point=ebcb8b&area_color=5e81ac&area=true&radius=14.4&height=260&days=31&grid=false" media="(prefers-color-scheme: dark)">
+  <source srcset="https://github-readme-activity-graph-teal-sigma.vercel.app/graph?username=Pr0ximah&bg_color=eceff4&border_color=d8dee9&color=2e3440&title_color=5e81ac&line=5e81ac&point=bf616a&area_color=88c0d0&area=true&radius=14.4&height=260&days=31&grid=false" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
+  <img alt="Pr0ximah's Activity Graph" src="https://github-readme-activity-graph-teal-sigma.vercel.app/graph?username=Pr0ximah&bg_color=eceff4&border_color=d8dee9&color=2e3440&title_color=5e81ac&line=5e81ac&point=bf616a&area_color=88c0d0&area=true&radius=14.4&height=260&days=31&grid=false" width="95.7%" vspace="11" />
 </picture>
 </div>
